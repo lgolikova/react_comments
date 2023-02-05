@@ -1,11 +1,14 @@
-import './App.css';
-import Form from './components/Form';
-import Comments from './components/Comments';
+import React, {useState} from "react";
+
+import Form from "./components/Form"
+// import "./styles.css";
 
 function App() {
+
+
   return (
-    <div className="App">
-      <Form />
+    <div>
+      <Form/>
     </div>
   );
 }
